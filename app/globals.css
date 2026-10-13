@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  /* Coolors Palette: f1e3f3-c2bbf0-8fb8ed-62bfed-3590f3 */
+  --palette-thistle: #F1E3F3;
+  --palette-periwinkle: #C2BBF0;
+  --palette-carolina: #8FB8ED;
+  --palette-sky: #62BFED;
+  --palette-azure: #3590F3;
+
+  /* Theme semantic mappings */
+  --primary-color: #3590F3;
+  --primary-hover: #62BFED;
+  --accent-color: #62BFED;
+  --accent-light: #8FB8ED;
+  --accent-soft: #C2BBF0;
+  --accent-tint: #F1E3F3;
+
+  /* Deep oceanic space navy canvas */
+  --dark-color: #0b111e;
+  --dark-surface: #131b2e;
+  --bg-color: #FFFFFF;
+  --text-light: #F4F4F5;
+  --text-dark: #18181B;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-dark);
+  font-family: var(--font-geist-sans), sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Palette Dark Canvas & Gradients */
+.bg-medhawk-dark {
+  background-color: #0b111e;
+}
+
+.bg-medhawk-gradient {
+  background: linear-gradient(180deg, #0e1626 0%, #0b111e 50%, #070c16 100%);
+}
+
+.palette-glow-azure {
+  box-shadow: 0 0 25px rgba(53, 144, 243, 0.4);
+}
+
+.palette-glow-sky {
+  box-shadow: 0 0 25px rgba(98, 191, 237, 0.4);
+}
+
+.palette-glow-periwinkle {
+  box-shadow: 0 0 25px rgba(194, 187, 240, 0.35);
+}
